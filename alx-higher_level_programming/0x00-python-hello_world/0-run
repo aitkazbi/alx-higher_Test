@@ -11,7 +11,8 @@ if [ ! -f "$py_file" ]; then
   echo "Error: Python file '$py_file' not found."
   exit 1
 fi
-python "$py_file"
+
+python3 "$py_file"
 
 
 
