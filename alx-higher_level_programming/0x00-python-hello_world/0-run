@@ -1,31 +1,3 @@
 #!/bin/bash
-
-py_file=$PYFILE
-
-if [ -z "$py_file" ]; then
-  echo "Error: The PYFILE environment variable is not set."
-  exit 1
-fi
-
-if [ ! -f "$py_file" ]; then
-  echo "Error: Python file '$py_file' not found."
-  exit 1
-fi
-
-python3 "$py_file"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+python3 $PYFILE
 
